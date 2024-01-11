@@ -62,6 +62,11 @@
         <artifactId>maven-scm-manager-plexus</artifactId>
         <version>2.0.1</version>
       </extension>
+      <extension>
+        <groupId>io.opentelemetry.contrib</groupId>
+        <artifactId>opentelemetry-maven-extension</artifactId>
+        <version>1.32.0-alpha</version>
+      </extension>
       <!-- Doing site publishing manually for now -->
 <!--
       <extension>
